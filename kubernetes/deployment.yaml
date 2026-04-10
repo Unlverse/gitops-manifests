@@ -15,13 +15,13 @@ spec:
     spec:
       containers:
         - name: gitops-demo-app
-          image: unlverse/gitops-demo-app:initial
+          image: unlverse/gitops-demo-app:e2083ed
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
           env:
             - name: APP_VERSION
-              value: "initial"
+              value: "e2083ed"
           resources:
             requests:
               memory: "64Mi"
